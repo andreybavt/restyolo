@@ -1,11 +1,11 @@
 import argparse
 import logging.config
 
-from api.endpoints import create_restyolo_api
-
 logging.config.fileConfig("logging.conf")
 
 if __name__ == '__main__':
+    from api.endpoints import create_restyolo_api
+
     logger = logging.getLogger(__name__)
 
     parser = argparse.ArgumentParser()
