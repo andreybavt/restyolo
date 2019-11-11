@@ -1,5 +1,5 @@
 install:
-	python3 -m venv env2;
+	python3 -m venv env;
 	source env2/bin/activate; \
 	pip install -r requirements.txt; \
 	cd pytorch_yolov3/weights && chmod +x download_weights.sh
