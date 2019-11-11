@@ -2,13 +2,15 @@
 ### A rest api for a @eriklindernoren PyTorch-YOLOv3 object detector
 
 ## Installation
-From the project directory run
+1. Clone this repository
+2. Run `git submodule update --init --recursive`
+3. From the root of this repo run
 ```shell script
 make install
 ```
 
 ## Running
-From the project directory run:
+From the root of this repo run:
 ```shell script
 ./run.sh
 ```
